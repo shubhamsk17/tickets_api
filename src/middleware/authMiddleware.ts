@@ -2,7 +2,7 @@ import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 
 // Ensure that you use environment variables for sensitive information
-const secret = process.env.JWT_SECRET || 'your_jwt_secret';
+const secret = process.env.JWT_SECRET || 'X84M5fCx+tRc^pg7ke9Wsb';
 
 interface CustomRequest extends Request {
   user?: { userId: number; type: string };

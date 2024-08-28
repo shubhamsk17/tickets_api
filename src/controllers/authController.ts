@@ -3,7 +3,7 @@ import { findUserByEmail } from '../models/userModel';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
-const secret = 'your_jwt_secret';
+const secret = 'X84M5fCx+tRc^pg7ke9Wsb';
 
 export async function login(req: Request, res: Response) {
   const { email, password } = req.body;
